@@ -1,0 +1,26 @@
+[2025-04-21T11:54:13.343-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-21T11:54:13.360-0300] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: integracao_api.integracao_api scheduled__2025-04-20T00:00:00+00:00 [queued]>
+[2025-04-21T11:54:13.486-0300] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: integracao_api.integracao_api scheduled__2025-04-20T00:00:00+00:00 [queued]>
+[2025-04-21T11:54:13.486-0300] {taskinstance.py:2867} INFO - Starting attempt 1 of 3
+[2025-04-21T11:54:13.514-0300] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): integracao_api> on 2025-04-20 00:00:00+00:00
+[2025-04-21T11:54:13.520-0300] {standard_task_runner.py:72} INFO - Started process 56399 to run task
+[2025-04-21T11:54:13.527-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'integracao_api', 'integracao_api', 'scheduled__2025-04-20T00:00:00+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/dag_integration.py', '--cfg-path', '/tmp/tmpajlh7zh7']
+[2025-04-21T11:54:13.528-0300] {standard_task_runner.py:105} INFO - Job 20: Subtask integracao_api
+[2025-04-21T11:54:13.586-0300] {task_command.py:467} INFO - Running <TaskInstance: integracao_api.integracao_api scheduled__2025-04-20T00:00:00+00:00 [running]> on host jonathan-brito
+[2025-04-21T11:54:13.663-0300] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_team' AIRFLOW_CTX_DAG_ID='integracao_api' AIRFLOW_CTX_TASK_ID='integracao_api' AIRFLOW_CTX_EXECUTION_DATE='2025-04-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-20T00:00:00+00:00'
+[2025-04-21T11:54:13.664-0300] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-21T11:54:13.664-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-21T11:54:13.665-0300] {logging_mixin.py:190} INFO - Current task name:integracao_api state:running start_date:2025-04-21 14:54:13.360876+00:00
+[2025-04-21T11:54:13.665-0300] {logging_mixin.py:190} INFO - Dag name:integracao_api and current dag run status:running
+[2025-04-21T11:54:13.665-0300] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-21T11:54:15.606-0300] {logging_mixin.py:190} INFO - integração finalizada - 2025-04-21 11:54:15.605889
+[2025-04-21T11:54:15.607-0300] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-21T11:54:15.627-0300] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-21T11:54:15.627-0300] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=integracao_api, task_id=integracao_api, run_id=scheduled__2025-04-20T00:00:00+00:00, execution_date=20250420T000000, start_date=20250421T145413, end_date=20250421T145415
+[2025-04-21T11:54:15.750-0300] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-04-21T11:54:15.750-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-04-21T11:54:15.750-0300] {logging_mixin.py:190} INFO - Dag name:integracao_api queued_at:2025-04-21 14:54:04.925724+00:00
+[2025-04-21T11:54:15.751-0300] {logging_mixin.py:190} INFO - Task hostname:jonathan-brito operator:PythonOperator
+[2025-04-21T11:54:15.791-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-21T11:54:15.817-0300] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-21T11:54:15.818-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

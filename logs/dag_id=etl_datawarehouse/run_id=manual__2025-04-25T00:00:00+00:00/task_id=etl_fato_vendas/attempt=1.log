@@ -1,0 +1,127 @@
+[2025-04-25T12:53:35.249-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-25T12:53:35.355-0300] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_datawarehouse.etl_fato_vendas manual__2025-04-25T00:00:00+00:00 [queued]>
+[2025-04-25T12:53:35.364-0300] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_datawarehouse.etl_fato_vendas manual__2025-04-25T00:00:00+00:00 [queued]>
+[2025-04-25T12:53:35.364-0300] {taskinstance.py:2867} INFO - Starting attempt 1 of 3
+[2025-04-25T12:53:35.386-0300] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): etl_fato_vendas> on 2025-04-25 00:00:00+00:00
+[2025-04-25T12:53:35.391-0300] {standard_task_runner.py:72} INFO - Started process 107724 to run task
+[2025-04-25T12:53:35.394-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'etl_datawarehouse', 'etl_fato_vendas', 'manual__2025-04-25T00:00:00+00:00', '--job-id', '132', '--raw', '--subdir', 'DAGS_FOLDER/dag_etl.py', '--cfg-path', '/tmp/tmp4q8euvch']
+[2025-04-25T12:53:35.396-0300] {standard_task_runner.py:105} INFO - Job 132: Subtask etl_fato_vendas
+[2025-04-25T12:53:35.441-0300] {task_command.py:467} INFO - Running <TaskInstance: etl_datawarehouse.etl_fato_vendas manual__2025-04-25T00:00:00+00:00 [running]> on host jonathan-brito
+[2025-04-25T12:53:35.508-0300] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Data Team' AIRFLOW_CTX_DAG_ID='etl_datawarehouse' AIRFLOW_CTX_TASK_ID='etl_fato_vendas' AIRFLOW_CTX_EXECUTION_DATE='2025-04-25T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-25T00:00:00+00:00'
+[2025-04-25T12:53:35.509-0300] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-25T12:53:35.509-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-25T12:53:35.509-0300] {logging_mixin.py:190} INFO - Current task name:etl_fato_vendas state:running start_date:2025-04-25 15:53:35.355404+00:00
+[2025-04-25T12:53:35.509-0300] {logging_mixin.py:190} INFO - Dag name:etl_datawarehouse and current dag run status:running
+[2025-04-25T12:53:35.510-0300] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-25T12:53:36.775-0300] {logging_mixin.py:190} INFO - Conexão com o PostgreSQL bem-sucedida - 2025-04-25 12:53:36.774973
+[2025-04-25T12:54:00.737-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 100 de 9994)
+[2025-04-25T12:54:22.036-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 200 de 9994)
+[2025-04-25T12:54:42.619-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 300 de 9994)
+[2025-04-25T12:55:07.733-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 400 de 9994)
+[2025-04-25T12:55:34.025-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 500 de 9994)
+[2025-04-25T12:56:03.827-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 600 de 9994)
+[2025-04-25T12:56:24.621-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 700 de 9994)
+[2025-04-25T12:56:47.139-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 800 de 9994)
+[2025-04-25T12:57:08.541-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 900 de 9994)
+[2025-04-25T12:57:31.481-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 1000 de 9994)
+[2025-04-25T12:57:56.283-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 1100 de 9994)
+[2025-04-25T12:58:17.048-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 1200 de 9994)
+[2025-04-25T12:58:37.938-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 1300 de 9994)
+[2025-04-25T12:58:58.726-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 1400 de 9994)
+[2025-04-25T12:59:20.026-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 1500 de 9994)
+[2025-04-25T12:59:40.507-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 1600 de 9994)
+[2025-04-25T13:00:01.089-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 1700 de 9994)
+[2025-04-25T13:00:21.981-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 1800 de 9994)
+[2025-04-25T13:00:42.509-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 1900 de 9994)
+[2025-04-25T13:01:03.760-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 2000 de 9994)
+[2025-04-25T13:01:25.265-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 2100 de 9994)
+[2025-04-25T13:01:45.913-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 2200 de 9994)
+[2025-04-25T13:02:07.966-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 2300 de 9994)
+[2025-04-25T13:02:28.705-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 2400 de 9994)
+[2025-04-25T13:02:49.287-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 2500 de 9994)
+[2025-04-25T13:03:10.738-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 2600 de 9994)
+[2025-04-25T13:03:31.938-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 2700 de 9994)
+[2025-04-25T13:03:51.903-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 2800 de 9994)
+[2025-04-25T13:04:12.792-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 2900 de 9994)
+[2025-04-25T13:04:34.150-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 3000 de 9994)
+[2025-04-25T13:04:57.031-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 3100 de 9994)
+[2025-04-25T13:05:17.819-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 3200 de 9994)
+[2025-04-25T13:05:38.888-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 3300 de 9994)
+[2025-04-25T13:05:59.459-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 3400 de 9994)
+[2025-04-25T13:06:20.694-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 3500 de 9994)
+[2025-04-25T13:06:41.991-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 3600 de 9994)
+[2025-04-25T13:07:03.599-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 3700 de 9994)
+[2025-04-25T13:07:24.441-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 3800 de 9994)
+[2025-04-25T13:07:47.323-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 3900 de 9994)
+[2025-04-25T13:08:10.057-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 4000 de 9994)
+[2025-04-25T13:08:30.948-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 4100 de 9994)
+[2025-04-25T13:08:51.837-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 4200 de 9994)
+[2025-04-25T13:09:13.034-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 4300 de 9994)
+[2025-04-25T13:09:34.229-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 4400 de 9994)
+[2025-04-25T13:09:55.327-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 4500 de 9994)
+[2025-04-25T13:10:16.315-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 4600 de 9994)
+[2025-04-25T13:10:36.697-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 4700 de 9994)
+[2025-04-25T13:10:57.898-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 4800 de 9994)
+[2025-04-25T13:11:18.651-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 4900 de 9994)
+[2025-04-25T13:11:39.470-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 5000 de 9994)
+[2025-04-25T13:12:01.179-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 5100 de 9994)
+[2025-04-25T13:12:21.962-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 5200 de 9994)
+[2025-04-25T13:12:42.748-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 5300 de 9994)
+[2025-04-25T13:13:03.742-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 5400 de 9994)
+[2025-04-25T13:13:24.938-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 5500 de 9994)
+[2025-04-25T13:13:46.238-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 5600 de 9994)
+[2025-04-25T13:14:08.621-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 5700 de 9994)
+[2025-04-25T13:14:29.454-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 5800 de 9994)
+[2025-04-25T13:14:50.546-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 5900 de 9994)
+[2025-04-25T13:15:11.743-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 6000 de 9994)
+[2025-04-25T13:15:33.147-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 6100 de 9994)
+[2025-04-25T13:15:54.547-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 6200 de 9994)
+[2025-04-25T13:16:15.541-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 6300 de 9994)
+[2025-04-25T13:16:37.251-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 6400 de 9994)
+[2025-04-25T13:16:58.137-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 6500 de 9994)
+[2025-04-25T13:17:19.126-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 6600 de 9994)
+[2025-04-25T13:17:39.913-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 6700 de 9994)
+[2025-04-25T13:18:00.789-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 6800 de 9994)
+[2025-04-25T13:18:22.079-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 6900 de 9994)
+[2025-04-25T13:18:42.061-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 7000 de 9994)
+[2025-04-25T13:19:02.397-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 7100 de 9994)
+[2025-04-25T13:19:23.836-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 7200 de 9994)
+[2025-04-25T13:19:44.928-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 7300 de 9994)
+[2025-04-25T13:20:06.433-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 7400 de 9994)
+[2025-04-25T13:20:27.625-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 7500 de 9994)
+[2025-04-25T13:20:51.892-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 7600 de 9994)
+[2025-04-25T13:21:11.847-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 7700 de 9994)
+[2025-04-25T13:21:31.575-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 7800 de 9994)
+[2025-04-25T13:21:53.123-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 7900 de 9994)
+[2025-04-25T13:22:14.318-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 8000 de 9994)
+[2025-04-25T13:22:31.929-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 8100 de 9994)
+[2025-04-25T13:22:52.566-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 8200 de 9994)
+[2025-04-25T13:23:13.194-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 8300 de 9994)
+[2025-04-25T13:23:35.219-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 8400 de 9994)
+[2025-04-25T13:23:55.585-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 8500 de 9994)
+[2025-04-25T13:24:15.449-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 8600 de 9994)
+[2025-04-25T13:24:35.519-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 8700 de 9994)
+[2025-04-25T13:24:56.407-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 8800 de 9994)
+[2025-04-25T13:25:15.452-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 8900 de 9994)
+[2025-04-25T13:25:37.881-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 9000 de 9994)
+[2025-04-25T13:25:58.739-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 9100 de 9994)
+[2025-04-25T13:26:19.082-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 9200 de 9994)
+[2025-04-25T13:26:39.521-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 9300 de 9994)
+[2025-04-25T13:27:01.229-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 9400 de 9994)
+[2025-04-25T13:27:22.321-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 9500 de 9994)
+[2025-04-25T13:27:43.319-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 9600 de 9994)
+[2025-04-25T13:28:04.562-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 9700 de 9994)
+[2025-04-25T13:28:25.397-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 9800 de 9994)
+[2025-04-25T13:28:46.900-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 9900 de 9994)
+[2025-04-25T13:29:06.301-0300] {logging_mixin.py:190} INFO - Enviados 94 registros (total: 10000 de 9994)
+[2025-04-25T13:29:06.340-0300] {logging_mixin.py:190} INFO - Sales Fact finalizada 2025-04-25 13:29:06.302893
+[2025-04-25T13:29:06.341-0300] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-25T13:29:06.354-0300] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-25T13:29:06.354-0300] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=etl_datawarehouse, task_id=etl_fato_vendas, run_id=manual__2025-04-25T00:00:00+00:00, execution_date=20250425T000000, start_date=20250425T155335, end_date=20250425T162906
+[2025-04-25T13:29:06.398-0300] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-04-25T13:29:06.399-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-04-25T13:29:06.399-0300] {logging_mixin.py:190} INFO - Dag name:etl_datawarehouse queued_at:2025-04-25 15:23:52.078945+00:00
+[2025-04-25T13:29:06.400-0300] {logging_mixin.py:190} INFO - Task hostname:jonathan-brito operator:PythonOperator
+[2025-04-25T13:29:06.429-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-25T13:29:06.449-0300] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-25T13:29:06.450-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

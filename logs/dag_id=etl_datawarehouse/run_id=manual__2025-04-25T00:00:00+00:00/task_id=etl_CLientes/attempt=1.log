@@ -1,0 +1,35 @@
+[2025-04-25T12:12:43.078-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-25T12:12:43.171-0300] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_datawarehouse.etl_CLientes manual__2025-04-25T00:00:00+00:00 [queued]>
+[2025-04-25T12:12:43.183-0300] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_datawarehouse.etl_CLientes manual__2025-04-25T00:00:00+00:00 [queued]>
+[2025-04-25T12:12:43.183-0300] {taskinstance.py:2867} INFO - Starting attempt 1 of 3
+[2025-04-25T12:12:43.216-0300] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): etl_CLientes> on 2025-04-25 00:00:00+00:00
+[2025-04-25T12:12:43.221-0300] {standard_task_runner.py:72} INFO - Started process 69233 to run task
+[2025-04-25T12:12:43.225-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'etl_datawarehouse', 'etl_CLientes', 'manual__2025-04-25T00:00:00+00:00', '--job-id', '124', '--raw', '--subdir', 'DAGS_FOLDER/dag_etl.py', '--cfg-path', '/tmp/tmpvn4t6q2k']
+[2025-04-25T12:12:43.226-0300] {standard_task_runner.py:105} INFO - Job 124: Subtask etl_CLientes
+[2025-04-25T12:12:43.270-0300] {task_command.py:467} INFO - Running <TaskInstance: etl_datawarehouse.etl_CLientes manual__2025-04-25T00:00:00+00:00 [running]> on host jonathan-brito
+[2025-04-25T12:12:43.338-0300] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Data Team' AIRFLOW_CTX_DAG_ID='etl_datawarehouse' AIRFLOW_CTX_TASK_ID='etl_CLientes' AIRFLOW_CTX_EXECUTION_DATE='2025-04-25T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-25T00:00:00+00:00'
+[2025-04-25T12:12:43.339-0300] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-25T12:12:43.339-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-25T12:12:43.340-0300] {logging_mixin.py:190} INFO - Current task name:etl_CLientes state:running start_date:2025-04-25 15:12:43.171983+00:00
+[2025-04-25T12:12:43.340-0300] {logging_mixin.py:190} INFO - Dag name:etl_datawarehouse and current dag run status:running
+[2025-04-25T12:12:43.340-0300] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-25T12:12:44.886-0300] {logging_mixin.py:190} INFO - Conexão com o PostgreSQL bem-sucedida - 2025-04-25 12:12:44.886105
+[2025-04-25T12:13:04.967-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 100 de 793)
+[2025-04-25T12:13:22.352-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 200 de 793)
+[2025-04-25T12:13:45.838-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 300 de 793)
+[2025-04-25T12:14:16.302-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 400 de 793)
+[2025-04-25T12:14:42.409-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 500 de 793)
+[2025-04-25T12:15:08.324-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 600 de 793)
+[2025-04-25T12:15:29.509-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 700 de 793)
+[2025-04-25T12:15:49.010-0300] {logging_mixin.py:190} INFO - Enviados 93 registros (total: 800 de 793)
+[2025-04-25T12:15:49.028-0300] {logging_mixin.py:190} INFO - Client Dimension finalizada 2025-04-25 12:15:49.011417
+[2025-04-25T12:15:49.029-0300] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-25T12:15:49.036-0300] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-25T12:15:49.037-0300] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=etl_datawarehouse, task_id=etl_CLientes, run_id=manual__2025-04-25T00:00:00+00:00, execution_date=20250425T000000, start_date=20250425T151243, end_date=20250425T151549
+[2025-04-25T12:15:49.071-0300] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-04-25T12:15:49.071-0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-04-25T12:15:49.071-0300] {logging_mixin.py:190} INFO - Dag name:etl_datawarehouse queued_at:2025-04-25 15:12:39.084954+00:00
+[2025-04-25T12:15:49.072-0300] {logging_mixin.py:190} INFO - Task hostname:jonathan-brito operator:PythonOperator
+[2025-04-25T12:15:49.111-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-25T12:15:49.135-0300] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-04-25T12:15:49.149-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

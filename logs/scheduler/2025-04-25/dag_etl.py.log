@@ -1,0 +1,1427 @@
+[2025-04-25T11:01:14.272-0300] {processor.py:186} INFO - Started process (PID=16668) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:01:14.273-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:01:14.275-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:01:14.275-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:01:14.292-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:01:14.286-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 6, in <module>
+    from utils.engine_etl import SalesRepository, DatabaseConnection
+  File "/home/jonathan-brito/python-projects/airflow/dags/utils/engine_etl.py", line 7, in <module>
+    today = datetime.date(datetime.today())
+            ^^^^^^^^
+NameError: name 'datetime' is not defined. Did you forget to import 'datetime'
+[2025-04-25T11:01:14.299-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:01:14.333-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.067 seconds
+[2025-04-25T11:02:49.503-0300] {processor.py:186} INFO - Started process (PID=18318) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:02:49.510-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:02:49.513-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:02:49.512-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:02:49.530-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:02:49.524-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 6, in <module>
+    from utils.engine_etl import SalesRepository, DatabaseConnection
+  File "/home/jonathan-brito/python-projects/airflow/dags/utils/engine_etl.py", line 7, in <module>
+    today = datetime.date(datetime.today())
+            ^^^^^^^^
+NameError: name 'datetime' is not defined. Did you forget to import 'datetime'
+[2025-04-25T11:02:49.534-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:02:49.561-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.064 seconds
+[2025-04-25T11:03:22.046-0300] {processor.py:186} INFO - Started process (PID=18839) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:03:22.048-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:03:22.049-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:03:22.049-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:03:22.057-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:03:22.053-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 6, in <module>
+    from utils.engine_etl import SalesRepository, DatabaseConnection
+  File "/home/jonathan-brito/python-projects/airflow/dags/utils/engine_etl.py", line 7, in <module>
+    today = datetime.date(datetime.today())
+            ^^^^^^^^
+NameError: name 'datetime' is not defined. Did you forget to import 'datetime'
+[2025-04-25T11:03:22.060-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:03:22.120-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.082 seconds
+[2025-04-25T11:04:00.006-0300] {processor.py:186} INFO - Started process (PID=19517) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:04:00.007-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:04:00.009-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:04:00.009-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:04:00.020-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:04:00.014-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 6, in <module>
+    from utils.engine_etl import SalesRepository, DatabaseConnection
+  File "/home/jonathan-brito/python-projects/airflow/dags/utils/engine_etl.py", line 7, in <module>
+    today = datetime.date(datetime.today())
+            ^^^^^^^^
+NameError: name 'datetime' is not defined. Did you forget to import 'datetime'
+[2025-04-25T11:04:00.024-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:04:00.055-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.057 seconds
+[2025-04-25T11:05:50.004-0300] {processor.py:186} INFO - Started process (PID=21216) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:05:50.010-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:05:50.013-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:05:50.012-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:05:51.495-0300] {logging_mixin.py:190} INFO - Conexão com o PostgreSQL bem-sucedida - 2025-04-25 11:05:51.495381
+[2025-04-25T11:06:13.202-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 100 de 166)
+[2025-04-25T11:06:20.069-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:06:20.068-0300] {timeout.py:68} ERROR - Process timed out, PID: 21216
+[2025-04-25T11:06:20.083-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:06:20.070-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 243, in <module>
+    etl_clientes = ETLEngine('process_client_dimension')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 236, in ETLEngine
+    result = getattr(service,process_method)()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 112, in process_client_dimension
+    return self._process_dimension('transform_client_dimension', '_insert_client_dimension')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 95, in _process_dimension
+    getattr(self, insert_method)(chunk)
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 163, in _insert_client_dimension
+    cursor.execute(query, (
+  File "/usr/lib/python3.12/encodings/utf_8.py", line 15, in decode
+    def decode(input, errors='strict'):
+    
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#reducing-dag-complexity, PID: 21216
+[2025-04-25T11:06:20.086-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:06:20.146-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 30.149 seconds
+[2025-04-25T11:07:25.684-0300] {processor.py:186} INFO - Started process (PID=22498) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:07:25.691-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:07:25.693-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:07:25.692-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:07:27.028-0300] {logging_mixin.py:190} INFO - Conexão com o PostgreSQL bem-sucedida - 2025-04-25 11:07:27.028892
+[2025-04-25T11:07:48.944-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 100 de 166)
+[2025-04-25T11:07:55.803-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:07:55.803-0300] {timeout.py:68} ERROR - Process timed out, PID: 22498
+[2025-04-25T11:07:55.806-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:07:55.804-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 243, in <module>
+    etl_clientes = ETLEngine('process_client_dimension')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 236, in ETLEngine
+    result = getattr(service,process_method)()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 112, in process_client_dimension
+    return self._process_dimension('transform_client_dimension', '_insert_client_dimension')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 95, in _process_dimension
+    getattr(self, insert_method)(chunk)
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 163, in _insert_client_dimension
+    cursor.execute(query, (
+  File "/usr/lib/python3.12/encodings/utf_8.py", line 15, in decode
+    def decode(input, errors='strict'):
+    
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#reducing-dag-complexity, PID: 22498
+[2025-04-25T11:07:55.808-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:07:55.844-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 30.165 seconds
+[2025-04-25T11:08:29.903-0300] {processor.py:186} INFO - Started process (PID=23053) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:08:29.910-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:08:29.912-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:08:29.912-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:08:31.433-0300] {logging_mixin.py:190} INFO - Conexão com o PostgreSQL bem-sucedida - 2025-04-25 11:08:31.433662
+[2025-04-25T11:08:55.961-0300] {processor.py:186} INFO - Started process (PID=23349) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:08:55.968-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:08:55.971-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:08:55.970-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:08:57.450-0300] {logging_mixin.py:190} INFO - Conexão com o PostgreSQL bem-sucedida - 2025-04-25 11:08:57.450649
+[2025-04-25T11:09:18.873-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 100 de 166)
+[2025-04-25T11:09:26.149-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:09:26.149-0300] {timeout.py:68} ERROR - Process timed out, PID: 23349
+[2025-04-25T11:09:26.151-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:09:26.150-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 243, in <module>
+    etl_clientes = ETLEngine('process_client_dimension')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 236, in ETLEngine
+    result = getattr(service,process_method)()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 112, in process_client_dimension
+    return self._process_dimension('transform_client_dimension', '_insert_client_dimension')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 95, in _process_dimension
+    getattr(self, insert_method)(chunk)
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 163, in _insert_client_dimension
+    cursor.execute(query, (
+  File "/usr/lib/python3.12/encodings/utf_8.py", line 15, in decode
+    def decode(input, errors='strict'):
+    
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#reducing-dag-complexity, PID: 23349
+[2025-04-25T11:09:26.152-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:09:26.184-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 30.231 seconds
+[2025-04-25T11:10:31.305-0300] {processor.py:186} INFO - Started process (PID=24299) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:10:31.312-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:10:31.315-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:10:31.314-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:10:32.500-0300] {logging_mixin.py:190} INFO - Conexão com o PostgreSQL bem-sucedida - 2025-04-25 11:10:32.499969
+[2025-04-25T11:10:50.171-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 100 de 166)
+[2025-04-25T11:11:01.440-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:11:01.440-0300] {timeout.py:68} ERROR - Process timed out, PID: 24299
+[2025-04-25T11:11:01.443-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:11:01.441-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 243, in <module>
+    etl_clientes = ETLEngine('process_client_dimension')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 236, in ETLEngine
+    result = getattr(service,process_method)()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 112, in process_client_dimension
+    return self._process_dimension('transform_client_dimension', '_insert_client_dimension')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 95, in _process_dimension
+    getattr(self, insert_method)(chunk)
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 163, in _insert_client_dimension
+    cursor.execute(query, (
+  File "/usr/lib/python3.12/encodings/utf_8.py", line 15, in decode
+    def decode(input, errors='strict'):
+    
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#reducing-dag-complexity, PID: 24299
+[2025-04-25T11:11:01.445-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:11:01.485-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 30.189 seconds
+[2025-04-25T11:11:36.562-0300] {processor.py:186} INFO - Started process (PID=24722) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:11:36.569-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:11:36.571-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:11:36.570-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:11:38.011-0300] {logging_mixin.py:190} INFO - Conexão com o PostgreSQL bem-sucedida - 2025-04-25 11:11:38.011244
+[2025-04-25T11:11:56.058-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 100 de 166)
+[2025-04-25T11:12:06.585-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:12:06.585-0300] {timeout.py:68} ERROR - Process timed out, PID: 24722
+[2025-04-25T11:12:06.587-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:12:06.586-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 243, in <module>
+    etl_clientes = ETLEngine('process_client_dimension')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 236, in ETLEngine
+    result = getattr(service,process_method)()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 112, in process_client_dimension
+    return self._process_dimension('transform_client_dimension', '_insert_client_dimension')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 95, in _process_dimension
+    getattr(self, insert_method)(chunk)
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 163, in _insert_client_dimension
+    cursor.execute(query, (
+  File "/usr/lib/python3.12/encodings/utf_8.py", line 15, in decode
+    def decode(input, errors='strict'):
+    
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#reducing-dag-complexity, PID: 24722
+[2025-04-25T11:12:06.588-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:12:06.626-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 30.070 seconds
+[2025-04-25T11:12:41.540-0300] {processor.py:186} INFO - Started process (PID=25137) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:12:41.547-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:12:41.549-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:12:41.549-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:12:43.056-0300] {logging_mixin.py:190} INFO - Conexão com o PostgreSQL bem-sucedida - 2025-04-25 11:12:43.056247
+[2025-04-25T11:13:05.177-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 100 de 166)
+[2025-04-25T11:13:11.738-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:13:11.737-0300] {timeout.py:68} ERROR - Process timed out, PID: 25137
+[2025-04-25T11:13:11.749-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:13:11.741-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 243, in <module>
+    etl_clientes = ETLEngine('process_client_dimension')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 236, in ETLEngine
+    result = getattr(service,process_method)()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 112, in process_client_dimension
+    return self._process_dimension('transform_client_dimension', '_insert_client_dimension')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 95, in _process_dimension
+    getattr(self, insert_method)(chunk)
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 163, in _insert_client_dimension
+    cursor.execute(query, (
+  File "/usr/lib/python3.12/encodings/utf_8.py", line 15, in decode
+    def decode(input, errors='strict'):
+    
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#reducing-dag-complexity, PID: 25137
+[2025-04-25T11:13:11.753-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:13:11.825-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 30.290 seconds
+[2025-04-25T11:13:45.878-0300] {processor.py:186} INFO - Started process (PID=25559) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:13:45.885-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:13:45.888-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:13:45.888-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:13:47.348-0300] {logging_mixin.py:190} INFO - Conexão com o PostgreSQL bem-sucedida - 2025-04-25 11:13:47.348131
+[2025-04-25T11:14:09.188-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 100 de 166)
+[2025-04-25T11:14:15.948-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:14:15.947-0300] {timeout.py:68} ERROR - Process timed out, PID: 25559
+[2025-04-25T11:14:15.954-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:14:15.949-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 242, in <module>
+    etl_clientes = ETLEngine('process_client_dimension')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 235, in ETLEngine
+    result = getattr(service,process_method)()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 111, in process_client_dimension
+    return self._process_dimension('transform_client_dimension', '_insert_client_dimension')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 94, in _process_dimension
+    getattr(self, insert_method)(chunk)
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 162, in _insert_client_dimension
+    cursor.execute(query, (
+  File "/usr/lib/python3.12/encodings/utf_8.py", line 15, in decode
+    def decode(input, errors='strict'):
+    
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#reducing-dag-complexity, PID: 25559
+[2025-04-25T11:14:15.957-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:14:16.012-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 30.147 seconds
+[2025-04-25T11:14:48.600-0300] {processor.py:186} INFO - Started process (PID=26278) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:14:48.607-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:14:48.609-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:14:48.609-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:14:49.956-0300] {logging_mixin.py:190} INFO - Conexão com o PostgreSQL bem-sucedida - 2025-04-25 11:14:49.956799
+[2025-04-25T11:15:13.094-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 100 de 166)
+[2025-04-25T11:15:18.624-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:15:18.624-0300] {timeout.py:68} ERROR - Process timed out, PID: 26278
+[2025-04-25T11:15:18.638-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:15:18.625-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 242, in <module>
+    etl_clientes = ETLEngine('process_client_dimension')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 235, in ETLEngine
+    result = getattr(service,process_method)()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 111, in process_client_dimension
+    return self._process_dimension('transform_client_dimension', '_insert_client_dimension')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 94, in _process_dimension
+    getattr(self, insert_method)(chunk)
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 162, in _insert_client_dimension
+    cursor.execute(query, (
+  File "/usr/lib/python3.12/encodings/utf_8.py", line 15, in decode
+    def decode(input, errors='strict'):
+    
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#reducing-dag-complexity, PID: 26278
+[2025-04-25T11:15:18.645-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:15:18.723-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 30.130 seconds
+[2025-04-25T11:15:52.305-0300] {processor.py:186} INFO - Started process (PID=26704) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:15:52.313-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:15:52.315-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:15:52.315-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:15:53.751-0300] {logging_mixin.py:190} INFO - Conexão com o PostgreSQL bem-sucedida - 2025-04-25 11:15:53.751659
+[2025-04-25T11:16:15.158-0300] {logging_mixin.py:190} INFO - Enviados 100 registros (total: 100 de 166)
+[2025-04-25T11:16:22.325-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:16:22.324-0300] {timeout.py:68} ERROR - Process timed out, PID: 26704
+[2025-04-25T11:16:22.336-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:16:22.328-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 242, in <module>
+    etl_tempo_entrega = ETLEngine('process_timeship_dimension')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 235, in ETLEngine
+    finally:
+             
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 111, in process_client_dimension
+    return self._process_dimension('transform_product_dimension', '_insert_product_dimension')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 94, in _process_dimension
+    else:
+          
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 162, in _insert_client_dimension
+    data[6],data[7],data[8],
+  File "/usr/lib/python3.12/encodings/utf_8.py", line 15, in decode
+    def decode(input, errors='strict'):
+    
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#reducing-dag-complexity, PID: 26704
+[2025-04-25T11:16:22.341-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:16:22.379-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 30.080 seconds
+[2025-04-25T11:16:59.052-0300] {processor.py:186} INFO - Started process (PID=27191) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:16:59.059-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:16:59.061-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:16:59.060-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:16:59.071-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:16:59.069-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 220, in <module>
+    os.getenv('DATABASE'), os.getenv('USER_DB'), os.getenv('PASSWORDDB'), os.getenv('HOSTDB'), os.getenv('PORTDB')
+    ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'
+[2025-04-25T11:16:59.072-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:16:59.097-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.052 seconds
+[2025-04-25T11:17:35.698-0300] {processor.py:186} INFO - Started process (PID=27387) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:17:35.706-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:17:35.714-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:17:35.713-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:17:35.746-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:17:35.742-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 220, in <module>
+    os.getenv('DATABASE'), os.getenv('USER_DB'), os.getenv('PASSWORDDB'), os.getenv('HOSTDB'), os.getenv('PORTDB')
+    ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'
+[2025-04-25T11:17:35.749-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:17:35.793-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.102 seconds
+[2025-04-25T11:18:10.025-0300] {processor.py:186} INFO - Started process (PID=27661) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:18:10.026-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:18:10.029-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:18:10.028-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:18:10.039-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:18:10.037-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 220, in <module>
+    os.getenv('DATABASE'), os.getenv('USER_DB'), os.getenv('PASSWORDDB'), os.getenv('HOSTDB'), os.getenv('PORTDB')
+    ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'
+[2025-04-25T11:18:10.041-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:18:10.082-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.064 seconds
+[2025-04-25T11:18:46.291-0300] {processor.py:186} INFO - Started process (PID=27837) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:18:46.299-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:18:46.302-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:18:46.301-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:18:46.315-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:18:46.312-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 220, in <module>
+    os.getenv('DATABASE'), os.getenv('USER_DB'), os.getenv('PASSWORDDB'), os.getenv('HOSTDB'), os.getenv('PORTDB')
+    ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'
+[2025-04-25T11:18:46.316-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:18:46.348-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.065 seconds
+[2025-04-25T11:19:20.264-0300] {processor.py:186} INFO - Started process (PID=28131) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:19:20.271-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:19:20.274-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:19:20.273-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:19:20.283-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:19:20.281-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 220, in <module>
+    os.getenv('DATABASE'), os.getenv('USER_DB'), os.getenv('PASSWORDDB'), os.getenv('HOSTDB'), os.getenv('PORTDB')
+    ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'
+[2025-04-25T11:19:20.284-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:19:20.309-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.054 seconds
+[2025-04-25T11:19:54.573-0300] {processor.py:186} INFO - Started process (PID=28293) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:19:54.581-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:19:54.588-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:19:54.586-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:19:54.617-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:19:54.612-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 220, in <module>
+    os.getenv('DATABASE'), os.getenv('USER_DB'), os.getenv('PASSWORDDB'), os.getenv('HOSTDB'), os.getenv('PORTDB')
+    ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'
+[2025-04-25T11:19:54.620-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:19:54.658-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.091 seconds
+[2025-04-25T11:20:27.093-0300] {processor.py:186} INFO - Started process (PID=28518) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:20:27.095-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:20:27.097-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:20:27.097-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:20:27.108-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:20:27.106-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 220, in <module>
+    os.getenv('DATABASE'), os.getenv('USER_DB'), os.getenv('PASSWORDDB'), os.getenv('HOSTDB'), os.getenv('PORTDB')
+    ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'
+[2025-04-25T11:20:27.109-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:20:27.135-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.050 seconds
+[2025-04-25T11:20:44.380-0300] {processor.py:186} INFO - Started process (PID=28706) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:20:44.381-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:20:44.384-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:20:44.383-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:20:44.398-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:20:44.395-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 220, in <module>
+    os.getenv('DATABASE'), os.getenv('USER_DB'), os.getenv('PASSWORDDB'), os.getenv('HOSTDB'), os.getenv('PORTDB')
+    ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'
+[2025-04-25T11:20:44.399-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:20:44.432-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.062 seconds
+[2025-04-25T11:21:59.069-0300] {processor.py:186} INFO - Started process (PID=29740) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:21:59.076-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:21:59.079-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:21:59.078-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:21:59.102-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:21:59.098-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 274, in <module>
+    tempo_venda = PythonOperator(
+                  ^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/operators/python.py", line 222, in __init__
+    super().__init__(**kwargs)
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseOperator.__init__() missing 1 required positional argument: 'task_id'
+[2025-04-25T11:21:59.103-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:21:59.132-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.071 seconds
+[2025-04-25T11:23:05.185-0300] {processor.py:186} INFO - Started process (PID=30499) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:23:05.192-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:23:05.196-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:23:05.196-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:23:05.211-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:23:05.206-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 274, in <module>
+    tempo_venda = PythonOperator(
+                  ^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/operators/python.py", line 222, in __init__
+    super().__init__(**kwargs)
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseOperator.__init__() missing 1 required positional argument: 'task_id'
+[2025-04-25T11:23:05.212-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:23:05.243-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.069 seconds
+[2025-04-25T11:23:38.093-0300] {processor.py:186} INFO - Started process (PID=30663) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:23:38.100-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:23:38.102-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:23:38.102-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:23:38.111-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:23:38.109-0300] {dagbag.py:387} ERROR - Failed to import: /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+Traceback (most recent call last):
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jonathan-brito/python-projects/airflow/dags/dag_etl.py", line 274, in <module>
+    tempo_venda = PythonOperator(
+                  ^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/operators/python.py", line 222, in __init__
+    super().__init__(**kwargs)
+  File "/home/jonathan-brito/python-projects/airflow/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseOperator.__init__() missing 1 required positional argument: 'task_id'
+[2025-04-25T11:23:38.112-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:23:38.135-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.049 seconds
+[2025-04-25T11:25:36.183-0300] {processor.py:186} INFO - Started process (PID=31584) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:25:36.193-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:25:36.196-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:25:36.196-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:25:36.220-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:25:36.364-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:25:36.363-0300] {override.py:1901} INFO - Created Permission View: can delete on DAG:etl_datawarehouse
+[2025-04-25T11:25:36.380-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:25:36.379-0300] {override.py:1901} INFO - Created Permission View: can read on DAG:etl_datawarehouse
+[2025-04-25T11:25:36.391-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:25:36.391-0300] {override.py:1901} INFO - Created Permission View: can edit on DAG:etl_datawarehouse
+[2025-04-25T11:25:36.409-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:25:36.409-0300] {override.py:1901} INFO - Created Permission View: can create on DAG Run:etl_datawarehouse
+[2025-04-25T11:25:36.425-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:25:36.424-0300] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:etl_datawarehouse
+[2025-04-25T11:25:36.443-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:25:36.443-0300] {override.py:1901} INFO - Created Permission View: can read on DAG Run:etl_datawarehouse
+[2025-04-25T11:25:36.458-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:25:36.457-0300] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:etl_datawarehouse
+[2025-04-25T11:25:36.458-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:25:36.458-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T11:25:36.470-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:25:36.470-0300] {dag.py:3262} INFO - Creating ORM DAG for etl_datawarehouse
+[2025-04-25T11:25:36.471-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:25:36.470-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T11:25:36.501-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.326 seconds
+[2025-04-25T11:27:18.982-0300] {processor.py:186} INFO - Started process (PID=32841) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:27:18.989-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:27:18.991-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:27:18.990-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:27:18.999-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:27:19.026-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:27:19.026-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T11:27:19.044-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:27:19.043-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T11:27:19.071-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.095 seconds
+[2025-04-25T11:28:21.265-0300] {processor.py:186} INFO - Started process (PID=33698) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:28:21.272-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:28:21.273-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:28:21.273-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:28:21.286-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:28:21.330-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:28:21.330-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T11:28:21.352-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:28:21.352-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T11:28:21.388-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.131 seconds
+[2025-04-25T11:33:21.726-0300] {processor.py:186} INFO - Started process (PID=35199) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:33:21.736-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:33:21.740-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:33:21.740-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:33:21.762-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:33:21.786-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:33:21.786-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T11:33:21.799-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:33:21.799-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T11:33:21.827-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.121 seconds
+[2025-04-25T11:34:27.364-0300] {processor.py:186} INFO - Started process (PID=35911) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:34:27.366-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T11:34:27.369-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:34:27.368-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:34:27.383-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T11:34:27.416-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:34:27.415-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T11:34:27.442-0300] {logging_mixin.py:190} INFO - [2025-04-25T11:34:27.441-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T11:34:27.475-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.120 seconds
+[2025-04-25T12:12:35.491-0300] {processor.py:186} INFO - Started process (PID=69087) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:12:35.492-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:12:35.494-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:12:35.493-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:12:35.501-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:12:35.528-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:12:35.527-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:12:35.541-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:12:35.541-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:12:35.583-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.097 seconds
+[2025-04-25T12:15:50.345-0300] {processor.py:186} INFO - Started process (PID=71094) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:15:50.352-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:15:50.354-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:15:50.353-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:15:50.367-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:15:50.412-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:15:50.411-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:15:50.437-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:15:50.437-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:15:50.474-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.139 seconds
+[2025-04-25T12:17:13.304-0300] {processor.py:186} INFO - Started process (PID=72559) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:17:13.311-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:17:13.313-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:17:13.313-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:17:13.323-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:17:13.358-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:17:13.357-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:17:13.380-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:17:13.380-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:17:13.419-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.126 seconds
+[2025-04-25T12:17:52.174-0300] {processor.py:186} INFO - Started process (PID=73229) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:17:52.181-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:17:52.182-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:17:52.182-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:17:52.189-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:17:52.207-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:17:52.207-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:17:52.220-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:17:52.220-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:17:52.244-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.076 seconds
+[2025-04-25T12:18:31.499-0300] {processor.py:186} INFO - Started process (PID=73887) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:18:31.506-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:18:31.507-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:18:31.507-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:18:31.518-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:18:31.537-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:18:31.536-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:18:31.549-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:18:31.549-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:18:31.587-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.094 seconds
+[2025-04-25T12:19:10.812-0300] {processor.py:186} INFO - Started process (PID=74552) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:19:10.821-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:19:10.823-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:19:10.823-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:19:10.833-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:19:10.865-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:19:10.865-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:19:10.889-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:19:10.889-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:19:10.924-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.122 seconds
+[2025-04-25T12:19:47.409-0300] {processor.py:186} INFO - Started process (PID=75209) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:19:47.416-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:19:47.417-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:19:47.417-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:19:47.424-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:19:47.443-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:19:47.443-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:19:47.455-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:19:47.455-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:19:47.485-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.083 seconds
+[2025-04-25T12:20:19.945-0300] {processor.py:186} INFO - Started process (PID=75751) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:20:19.953-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:20:19.957-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:20:19.956-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:20:19.973-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:20:19.994-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:20:19.994-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:20:20.008-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:20:20.007-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:20:20.041-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.102 seconds
+[2025-04-25T12:20:54.124-0300] {processor.py:186} INFO - Started process (PID=76182) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:20:54.126-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:20:54.128-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:20:54.127-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:20:54.136-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:20:54.157-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:20:54.156-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:20:54.171-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:20:54.171-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:20:54.216-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.100 seconds
+[2025-04-25T12:21:28.100-0300] {processor.py:186} INFO - Started process (PID=76445) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:21:28.107-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:21:28.109-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:21:28.108-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:21:28.118-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:21:28.137-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:21:28.137-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:21:28.150-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:21:28.149-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:21:28.174-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.081 seconds
+[2025-04-25T12:21:58.384-0300] {processor.py:186} INFO - Started process (PID=76658) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:21:58.391-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:21:58.392-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:21:58.392-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:21:58.400-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:21:58.418-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:21:58.418-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:21:58.432-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:21:58.432-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:21:58.458-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.081 seconds
+[2025-04-25T12:22:28.700-0300] {processor.py:186} INFO - Started process (PID=76900) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:22:28.701-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:22:28.703-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:22:28.703-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:22:28.713-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:22:28.732-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:22:28.731-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:22:28.744-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:22:28.744-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:22:28.770-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.079 seconds
+[2025-04-25T12:23:00.658-0300] {processor.py:186} INFO - Started process (PID=77113) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:23:00.665-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:23:00.667-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:23:00.666-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:23:00.677-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:23:00.699-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:23:00.699-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:23:00.712-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:23:00.712-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:23:00.751-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.125 seconds
+[2025-04-25T12:23:32.326-0300] {processor.py:186} INFO - Started process (PID=77492) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:23:32.336-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:23:32.342-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:23:32.339-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:23:32.391-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:23:32.461-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:23:32.461-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:23:32.488-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:23:32.484-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:23:32.553-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.246 seconds
+[2025-04-25T12:32:15.371-0300] {processor.py:186} INFO - Started process (PID=85630) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:32:15.378-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:32:15.381-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:32:15.380-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:32:15.397-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:32:15.437-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:32:15.436-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:32:15.461-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:32:15.461-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:32:15.541-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.185 seconds
+[2025-04-25T12:33:38.262-0300] {processor.py:186} INFO - Started process (PID=87022) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:33:38.269-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:33:38.271-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:33:38.270-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:33:38.281-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:33:38.304-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:33:38.304-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:33:38.320-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:33:38.320-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:33:38.347-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.093 seconds
+[2025-04-25T12:34:13.638-0300] {processor.py:186} INFO - Started process (PID=87651) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:34:13.645-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:34:13.646-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:34:13.646-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:34:13.655-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:34:13.674-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:34:13.674-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:34:13.687-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:34:13.686-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:34:13.715-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.085 seconds
+[2025-04-25T12:34:53.691-0300] {processor.py:186} INFO - Started process (PID=88344) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:34:53.698-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:34:53.699-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:34:53.699-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:34:53.706-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:34:53.726-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:34:53.725-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:34:53.739-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:34:53.739-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:34:53.767-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.083 seconds
+[2025-04-25T12:35:30.450-0300] {processor.py:186} INFO - Started process (PID=88963) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:35:30.457-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:35:30.458-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:35:30.458-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:35:30.465-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:35:30.483-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:35:30.483-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:35:30.495-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:35:30.494-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:35:30.519-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.076 seconds
+[2025-04-25T12:36:05.932-0300] {processor.py:186} INFO - Started process (PID=89565) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:36:05.939-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:36:05.941-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:36:05.941-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:36:05.955-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:36:05.988-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:36:05.987-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:36:06.004-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:36:06.004-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:36:06.036-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.117 seconds
+[2025-04-25T12:36:42.670-0300] {processor.py:186} INFO - Started process (PID=90204) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:36:42.678-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:36:42.680-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:36:42.680-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:36:42.691-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:36:42.729-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:36:42.729-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:36:42.749-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:36:42.748-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:36:42.789-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.127 seconds
+[2025-04-25T12:37:18.394-0300] {processor.py:186} INFO - Started process (PID=90821) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:37:18.396-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:37:18.398-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:37:18.397-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:37:18.410-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:37:18.431-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:37:18.430-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:37:18.444-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:37:18.443-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:37:18.476-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.092 seconds
+[2025-04-25T12:42:18.776-0300] {processor.py:186} INFO - Started process (PID=96010) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:42:18.783-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:42:18.785-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:42:18.784-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:42:18.795-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:42:18.835-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:42:18.834-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:42:18.852-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:42:18.852-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:42:18.885-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.118 seconds
+[2025-04-25T12:43:44.439-0300] {processor.py:186} INFO - Started process (PID=97481) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:43:44.448-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:43:44.453-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:43:44.452-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:43:44.478-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:43:44.514-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:43:44.513-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:43:44.527-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:43:44.526-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:43:44.561-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.142 seconds
+[2025-04-25T12:44:21.665-0300] {processor.py:186} INFO - Started process (PID=98194) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:44:21.673-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:44:21.675-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:44:21.674-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:44:21.694-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:44:21.717-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:44:21.716-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:44:21.730-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:44:21.730-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:44:21.761-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.106 seconds
+[2025-04-25T12:45:00.307-0300] {processor.py:186} INFO - Started process (PID=98874) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:45:00.314-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:45:00.317-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:45:00.316-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:45:00.330-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:45:00.373-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:45:00.372-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:45:00.403-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:45:00.402-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:45:00.452-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.156 seconds
+[2025-04-25T12:45:40.565-0300] {processor.py:186} INFO - Started process (PID=99545) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:45:40.572-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:45:40.574-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:45:40.574-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:45:40.582-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:45:40.601-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:45:40.601-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:45:40.620-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:45:40.620-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:45:40.678-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.119 seconds
+[2025-04-25T12:46:18.585-0300] {processor.py:186} INFO - Started process (PID=100171) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:46:18.594-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:46:18.598-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:46:18.597-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:46:18.625-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:46:18.665-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:46:18.665-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:46:18.681-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:46:18.680-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:46:18.721-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.158 seconds
+[2025-04-25T12:46:53.596-0300] {processor.py:186} INFO - Started process (PID=100762) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:46:53.603-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:46:53.607-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:46:53.606-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:46:53.619-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:46:53.657-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:46:53.657-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:46:53.679-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:46:53.679-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:46:53.734-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.151 seconds
+[2025-04-25T12:47:31.509-0300] {processor.py:186} INFO - Started process (PID=101405) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:47:31.516-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:47:31.517-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:47:31.517-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:47:31.525-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:47:31.545-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:47:31.544-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:47:31.559-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:47:31.558-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:47:31.586-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.084 seconds
+[2025-04-25T12:53:15.913-0300] {processor.py:186} INFO - Started process (PID=107381) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:53:15.915-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T12:53:15.917-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:53:15.917-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:53:15.927-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T12:53:15.967-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:53:15.967-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T12:53:15.985-0300] {logging_mixin.py:190} INFO - [2025-04-25T12:53:15.985-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T12:53:16.011-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.108 seconds
+[2025-04-25T13:29:07.528-0300] {processor.py:186} INFO - Started process (PID=142282) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:29:07.530-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:29:07.531-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:29:07.530-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:29:07.542-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:29:07.575-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:29:07.574-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:29:07.586-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:29:07.586-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:29:07.641-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.119 seconds
+[2025-04-25T13:30:10.063-0300] {processor.py:186} INFO - Started process (PID=142771) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:30:10.064-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:30:10.066-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:30:10.065-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:30:10.073-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:30:10.091-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:30:10.090-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:30:10.103-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:30:10.103-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:30:10.126-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.069 seconds
+[2025-04-25T13:30:42.575-0300] {processor.py:186} INFO - Started process (PID=142991) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:30:42.582-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:30:42.583-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:30:42.583-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:30:42.590-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:30:42.608-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:30:42.607-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:30:42.620-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:30:42.619-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:30:42.642-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.073 seconds
+[2025-04-25T13:31:17.326-0300] {processor.py:186} INFO - Started process (PID=143172) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:31:17.333-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:31:17.335-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:31:17.334-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:31:17.342-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:31:17.360-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:31:17.360-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:31:17.375-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:31:17.374-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:31:17.396-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.076 seconds
+[2025-04-25T13:31:51.903-0300] {processor.py:186} INFO - Started process (PID=143412) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:31:51.904-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:31:51.905-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:31:51.905-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:31:51.912-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:31:51.931-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:31:51.930-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:31:51.943-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:31:51.943-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:31:51.967-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.071 seconds
+[2025-04-25T13:32:24.773-0300] {processor.py:186} INFO - Started process (PID=143586) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:32:24.780-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:32:24.781-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:32:24.781-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:32:24.789-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:32:24.807-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:32:24.807-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:32:24.819-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:32:24.819-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:32:24.842-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.075 seconds
+[2025-04-25T13:32:58.744-0300] {processor.py:186} INFO - Started process (PID=143819) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:32:58.751-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:32:58.753-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:32:58.752-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:32:58.762-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:32:58.782-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:32:58.782-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:32:58.796-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:32:58.795-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:32:58.821-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.085 seconds
+[2025-04-25T13:33:30.006-0300] {processor.py:186} INFO - Started process (PID=144012) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:33:30.013-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:33:30.015-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:33:30.014-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:33:30.022-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:33:30.040-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:33:30.040-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:33:30.052-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:33:30.052-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:33:30.081-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.082 seconds
+[2025-04-25T13:34:27.647-0300] {processor.py:186} INFO - Started process (PID=144413) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:34:27.654-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:34:27.655-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:34:27.655-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:34:27.662-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:34:27.682-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:34:27.682-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:34:27.695-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:34:27.695-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:34:27.718-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.078 seconds
+[2025-04-25T13:35:00.548-0300] {processor.py:186} INFO - Started process (PID=144651) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:35:00.555-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:35:00.556-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:35:00.556-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:35:00.563-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:35:00.581-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:35:00.581-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:35:00.597-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:35:00.597-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:35:00.623-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.081 seconds
+[2025-04-25T13:35:35.021-0300] {processor.py:186} INFO - Started process (PID=144885) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:35:35.028-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:35:35.029-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:35:35.029-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:35:35.038-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:35:35.061-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:35:35.061-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:35:35.077-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:35:35.077-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:35:35.100-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.085 seconds
+[2025-04-25T13:36:06.945-0300] {processor.py:186} INFO - Started process (PID=145050) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:36:06.952-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:36:06.954-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:36:06.954-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:36:06.962-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:36:06.983-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:36:06.983-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:36:06.999-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:36:06.999-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:36:07.041-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.103 seconds
+[2025-04-25T13:36:40.037-0300] {processor.py:186} INFO - Started process (PID=145282) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:36:40.045-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:36:40.046-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:36:40.046-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:36:40.056-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:36:40.076-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:36:40.076-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:36:40.089-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:36:40.088-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:36:40.117-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.088 seconds
+[2025-04-25T13:37:11.883-0300] {processor.py:186} INFO - Started process (PID=145439) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:37:11.890-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:37:11.891-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:37:11.891-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:37:11.899-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:37:11.918-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:37:11.918-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:37:11.934-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:37:11.934-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:37:11.964-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.089 seconds
+[2025-04-25T13:37:45.308-0300] {processor.py:186} INFO - Started process (PID=145671) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:37:45.315-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:37:45.317-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:37:45.316-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:37:45.326-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:37:45.345-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:37:45.345-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:37:45.358-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:37:45.358-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:37:45.381-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.080 seconds
+[2025-04-25T13:38:19.363-0300] {processor.py:186} INFO - Started process (PID=145863) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:38:19.370-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:38:19.372-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:38:19.372-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:38:19.380-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:38:19.400-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:38:19.399-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:38:19.418-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:38:19.418-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:38:19.467-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.109 seconds
+[2025-04-25T13:38:49.852-0300] {processor.py:186} INFO - Started process (PID=146120) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:38:49.853-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:38:49.854-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:38:49.854-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:38:49.864-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:38:49.883-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:38:49.883-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:38:49.897-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:38:49.896-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:38:49.924-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.078 seconds
+[2025-04-25T13:39:21.806-0300] {processor.py:186} INFO - Started process (PID=146411) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:39:21.813-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:39:21.815-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:39:21.814-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:39:21.826-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:39:21.852-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:39:21.852-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:39:21.866-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:39:21.866-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:39:21.904-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.103 seconds
+[2025-04-25T13:39:53.524-0300] {processor.py:186} INFO - Started process (PID=146656) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:39:53.531-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:39:53.534-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:39:53.533-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:39:53.545-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:39:53.571-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:39:53.570-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:39:53.583-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:39:53.583-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:39:53.623-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.110 seconds
+[2025-04-25T13:40:24.941-0300] {processor.py:186} INFO - Started process (PID=146823) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:40:24.949-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:40:24.950-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:40:24.950-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:40:24.958-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:40:24.977-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:40:24.977-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:40:24.990-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:40:24.990-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:40:25.015-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.080 seconds
+[2025-04-25T13:41:21.869-0300] {processor.py:186} INFO - Started process (PID=147774) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:41:21.876-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:41:21.877-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:41:21.877-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:41:21.884-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:41:21.903-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:41:21.903-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:41:21.917-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:41:21.917-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:41:21.946-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.083 seconds
+[2025-04-25T13:41:53.602-0300] {processor.py:186} INFO - Started process (PID=148017) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:41:53.609-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:41:53.610-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:41:53.610-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:41:53.617-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:41:53.638-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:41:53.638-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:41:53.651-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:41:53.650-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:41:53.682-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.086 seconds
+[2025-04-25T13:42:54.875-0300] {processor.py:186} INFO - Started process (PID=148424) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:42:54.882-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:42:54.884-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:42:54.883-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:42:54.893-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:42:54.915-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:42:54.914-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:42:54.930-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:42:54.930-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:42:54.963-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.094 seconds
+[2025-04-25T13:43:29.076-0300] {processor.py:186} INFO - Started process (PID=148627) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:43:29.077-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:43:29.079-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:43:29.078-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:43:29.086-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:43:29.105-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:43:29.104-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:43:29.118-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:43:29.117-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:43:29.141-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.071 seconds
+[2025-04-25T13:44:02.446-0300] {processor.py:186} INFO - Started process (PID=148864) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:44:02.453-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:44:02.454-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:44:02.454-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:44:02.462-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:44:02.480-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:44:02.480-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:44:02.496-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:44:02.496-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:44:02.523-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.083 seconds
+[2025-04-25T13:44:35.159-0300] {processor.py:186} INFO - Started process (PID=149166) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:44:35.166-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:44:35.168-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:44:35.167-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:44:35.178-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:44:35.204-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:44:35.204-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:44:35.218-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:44:35.218-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:44:35.252-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.102 seconds
+[2025-04-25T13:45:08.965-0300] {processor.py:186} INFO - Started process (PID=149348) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:45:08.972-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:45:08.974-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:45:08.973-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:45:08.982-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:45:09.002-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:45:09.002-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:45:09.015-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:45:09.015-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:45:09.040-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.082 seconds
+[2025-04-25T13:45:42.557-0300] {processor.py:186} INFO - Started process (PID=149596) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:45:42.564-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:45:42.566-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:45:42.565-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:45:42.574-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:45:42.593-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:45:42.593-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:45:42.605-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:45:42.605-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:45:42.629-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.082 seconds
+[2025-04-25T13:46:14.204-0300] {processor.py:186} INFO - Started process (PID=149765) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:46:14.205-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:46:14.206-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:46:14.206-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:46:14.215-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:46:14.239-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:46:14.239-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:46:14.255-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:46:14.255-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:46:14.291-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.094 seconds
+[2025-04-25T13:46:46.928-0300] {processor.py:186} INFO - Started process (PID=149990) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:46:46.935-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:46:46.937-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:46:46.936-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:46:46.944-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:46:46.962-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:46:46.962-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:46:46.974-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:46:46.974-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:46:47.008-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.086 seconds
+[2025-04-25T13:47:18.229-0300] {processor.py:186} INFO - Started process (PID=150157) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:47:18.236-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:47:18.238-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:47:18.237-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:47:18.246-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:47:18.268-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:47:18.267-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:47:18.283-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:47:18.282-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:47:18.327-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.105 seconds
+[2025-04-25T13:47:50.587-0300] {processor.py:186} INFO - Started process (PID=150455) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:47:50.594-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:47:50.595-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:47:50.595-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:47:50.606-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:47:50.633-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:47:50.632-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:47:50.646-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:47:50.646-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:47:50.677-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.100 seconds
+[2025-04-25T13:48:24.448-0300] {processor.py:186} INFO - Started process (PID=150717) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:48:24.455-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:48:24.456-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:48:24.456-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:48:24.464-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:48:24.482-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:48:24.482-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:48:24.495-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:48:24.495-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:48:24.530-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.088 seconds
+[2025-04-25T13:48:58.173-0300] {processor.py:186} INFO - Started process (PID=150986) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:48:58.180-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:48:58.182-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:48:58.181-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:48:58.189-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:48:58.207-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:48:58.207-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:48:58.219-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:48:58.219-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:48:58.246-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.079 seconds
+[2025-04-25T13:49:31.679-0300] {processor.py:186} INFO - Started process (PID=151274) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:49:31.686-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:49:31.687-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:49:31.687-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:49:31.695-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:49:31.723-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:49:31.723-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:49:31.743-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:49:31.743-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:49:31.772-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.099 seconds
+[2025-04-25T13:50:03.486-0300] {processor.py:186} INFO - Started process (PID=151497) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:50:03.487-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:50:03.489-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:50:03.488-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:50:03.496-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:50:03.515-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:50:03.515-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:50:03.528-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:50:03.528-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:50:03.552-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.073 seconds
+[2025-04-25T13:50:34.202-0300] {processor.py:186} INFO - Started process (PID=151720) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:50:34.209-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:50:34.210-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:50:34.210-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:50:34.217-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:50:34.236-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:50:34.235-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:50:34.249-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:50:34.249-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:50:34.278-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.082 seconds
+[2025-04-25T13:51:04.796-0300] {processor.py:186} INFO - Started process (PID=151872) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:51:04.803-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:51:04.805-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:51:04.804-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:51:04.816-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:51:04.837-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:51:04.837-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:51:04.852-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:51:04.852-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:51:04.895-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.106 seconds
+[2025-04-25T13:52:04.639-0300] {processor.py:186} INFO - Started process (PID=152244) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:52:04.646-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:52:04.647-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:52:04.647-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:52:04.654-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:52:04.673-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:52:04.672-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:52:04.685-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:52:04.685-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:52:04.707-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.075 seconds
+[2025-04-25T13:52:36.289-0300] {processor.py:186} INFO - Started process (PID=152469) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:52:36.290-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:52:36.292-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:52:36.291-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:52:36.302-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:52:36.350-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:52:36.349-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:52:36.371-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:52:36.370-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:52:36.406-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.124 seconds
+[2025-04-25T13:53:06.580-0300] {processor.py:186} INFO - Started process (PID=152746) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:53:06.588-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:53:06.590-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:53:06.589-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:53:06.601-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:53:06.624-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:53:06.624-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:53:06.639-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:53:06.638-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:53:06.669-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.098 seconds
+[2025-04-25T13:53:38.977-0300] {processor.py:186} INFO - Started process (PID=153101) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:53:38.984-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:53:38.986-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:53:38.985-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:53:38.993-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:53:39.014-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:53:39.014-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:53:39.028-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:53:39.028-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:53:39.064-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.094 seconds
+[2025-04-25T13:54:10.361-0300] {processor.py:186} INFO - Started process (PID=153330) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:54:10.362-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:54:10.363-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:54:10.363-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:54:10.375-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:54:10.397-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:54:10.396-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:54:10.409-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:54:10.409-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:54:10.440-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.089 seconds
+[2025-04-25T13:54:43.725-0300] {processor.py:186} INFO - Started process (PID=153605) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:54:43.732-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:54:43.733-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:54:43.733-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:54:43.741-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:54:43.761-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:54:43.761-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:54:43.774-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:54:43.774-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:54:43.952-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.234 seconds
+[2025-04-25T13:55:20.991-0300] {processor.py:186} INFO - Started process (PID=153803) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:55:20.998-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:55:21.000-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:55:20.999-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:55:21.007-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:55:21.026-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:55:21.026-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:55:21.038-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:55:21.038-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:55:21.061-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.076 seconds
+[2025-04-25T13:55:58.340-0300] {processor.py:186} INFO - Started process (PID=154072) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:55:58.346-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:55:58.348-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:55:58.347-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:55:58.356-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:55:58.377-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:55:58.377-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:55:58.534-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:55:58.533-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:55:58.567-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.235 seconds
+[2025-04-25T13:56:36.705-0300] {processor.py:186} INFO - Started process (PID=154325) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:56:36.706-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:56:36.707-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:56:36.707-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:56:36.715-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:56:36.745-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:56:36.745-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:56:36.764-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:56:36.764-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:56:36.797-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.098 seconds
+[2025-04-25T13:57:13.594-0300] {processor.py:186} INFO - Started process (PID=154520) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:57:13.601-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:57:13.602-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:57:13.602-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:57:13.609-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:57:13.633-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:57:13.632-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:57:13.846-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:57:13.846-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:57:13.870-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.283 seconds
+[2025-04-25T13:57:53.174-0300] {processor.py:186} INFO - Started process (PID=154785) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:57:53.181-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:57:53.182-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:57:53.182-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:57:53.190-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:57:53.216-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:57:53.215-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:57:53.232-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:57:53.232-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:57:53.266-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.100 seconds
+[2025-04-25T13:58:31.218-0300] {processor.py:186} INFO - Started process (PID=154995) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:58:31.225-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:58:31.227-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:58:31.227-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:58:31.236-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:58:31.258-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:58:31.257-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:58:31.276-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:58:31.275-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:58:31.304-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.093 seconds
+[2025-04-25T13:59:02.899-0300] {processor.py:186} INFO - Started process (PID=155229) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:59:02.906-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:59:02.908-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:59:02.907-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:59:02.916-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:59:02.936-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:59:02.936-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:59:02.949-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:59:02.949-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:59:02.977-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.085 seconds
+[2025-04-25T13:59:35.175-0300] {processor.py:186} INFO - Started process (PID=155522) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:59:35.182-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T13:59:35.183-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:59:35.183-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:59:35.190-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T13:59:35.209-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:59:35.209-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T13:59:35.221-0300] {logging_mixin.py:190} INFO - [2025-04-25T13:59:35.221-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T13:59:35.244-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.075 seconds
+[2025-04-25T14:00:06.632-0300] {processor.py:186} INFO - Started process (PID=155720) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:00:06.633-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:00:06.634-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:00:06.634-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:00:06.643-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:00:06.665-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:00:06.664-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:00:06.680-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:00:06.680-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:00:06.714-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.089 seconds
+[2025-04-25T14:00:41.543-0300] {processor.py:186} INFO - Started process (PID=155950) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:00:41.550-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:00:41.551-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:00:41.551-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:00:41.559-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:00:41.578-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:00:41.578-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:00:41.591-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:00:41.590-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:00:41.615-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.078 seconds
+[2025-04-25T14:01:14.019-0300] {processor.py:186} INFO - Started process (PID=156114) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:01:14.026-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:01:14.027-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:01:14.027-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:01:14.035-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:01:14.054-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:01:14.053-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:01:14.066-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:01:14.066-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:01:14.092-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.080 seconds
+[2025-04-25T14:01:45.229-0300] {processor.py:186} INFO - Started process (PID=156323) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:01:45.236-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:01:45.237-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:01:45.237-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:01:45.244-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:01:45.264-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:01:45.263-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:01:45.277-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:01:45.277-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:01:45.308-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.085 seconds
+[2025-04-25T14:02:18.440-0300] {processor.py:186} INFO - Started process (PID=156500) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:02:18.447-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:02:18.448-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:02:18.448-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:02:18.457-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:02:18.479-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:02:18.478-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:02:18.493-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:02:18.493-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:02:18.516-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.084 seconds
+[2025-04-25T14:02:51.141-0300] {processor.py:186} INFO - Started process (PID=156740) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:02:51.149-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:02:51.152-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:02:51.151-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:02:51.171-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:02:51.211-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:02:51.211-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:02:51.228-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:02:51.227-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:02:51.278-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.154 seconds
+[2025-04-25T14:03:21.583-0300] {processor.py:186} INFO - Started process (PID=156910) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:03:21.590-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:03:21.592-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:03:21.591-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:03:21.601-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:03:21.625-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:03:21.624-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:03:21.640-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:03:21.640-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:03:21.705-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.130 seconds
+[2025-04-25T14:03:51.946-0300] {processor.py:186} INFO - Started process (PID=157121) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:03:51.953-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:03:51.955-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:03:51.955-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:03:51.963-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:03:51.981-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:03:51.981-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:03:51.994-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:03:51.994-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:03:52.020-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.080 seconds
+[2025-04-25T14:04:23.228-0300] {processor.py:186} INFO - Started process (PID=157347) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:04:23.235-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:04:23.239-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:04:23.238-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:04:23.259-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:04:23.281-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:04:23.281-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:04:23.294-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:04:23.293-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:04:23.334-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.115 seconds
+[2025-04-25T14:04:54.528-0300] {processor.py:186} INFO - Started process (PID=157586) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:04:54.535-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:04:54.536-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:04:54.536-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:04:54.543-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:04:54.562-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:04:54.562-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:04:54.574-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:04:54.574-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:04:54.598-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.076 seconds
+[2025-04-25T14:05:25.758-0300] {processor.py:186} INFO - Started process (PID=157754) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:05:25.765-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:05:25.766-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:05:25.766-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:05:25.775-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:05:25.798-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:05:25.797-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:05:25.811-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:05:25.811-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:05:25.850-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.103 seconds
+[2025-04-25T14:05:57.260-0300] {processor.py:186} INFO - Started process (PID=157981) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:05:57.267-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:05:57.269-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:05:57.268-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:05:57.279-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:05:57.298-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:05:57.297-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:05:57.310-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:05:57.310-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:05:57.350-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.098 seconds
+[2025-04-25T14:06:31.117-0300] {processor.py:186} INFO - Started process (PID=158163) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:06:31.127-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:06:31.129-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:06:31.129-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:06:31.141-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:06:31.170-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:06:31.169-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:06:31.184-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:06:31.184-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:06:31.217-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.121 seconds
+[2025-04-25T14:07:32.330-0300] {processor.py:186} INFO - Started process (PID=158584) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:07:32.337-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:07:32.339-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:07:32.338-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:07:32.346-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:07:32.365-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:07:32.365-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:07:32.379-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:07:32.379-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:07:32.403-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.079 seconds
+[2025-04-25T14:08:04.427-0300] {processor.py:186} INFO - Started process (PID=158779) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:08:04.435-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:08:04.436-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:08:04.436-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:08:04.444-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:08:04.462-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:08:04.461-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:08:04.474-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:08:04.473-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:08:04.497-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.076 seconds
+[2025-04-25T14:08:36.095-0300] {processor.py:186} INFO - Started process (PID=158995) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:08:36.103-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:08:36.104-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:08:36.104-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:08:36.111-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:08:36.134-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:08:36.134-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:08:36.148-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:08:36.147-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:08:36.171-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.082 seconds
+[2025-04-25T14:09:09.364-0300] {processor.py:186} INFO - Started process (PID=159172) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:09:09.371-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:09:09.373-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:09:09.373-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:09:09.380-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:09:09.399-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:09:09.399-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:09:09.412-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:09:09.412-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:09:09.434-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.077 seconds
+[2025-04-25T14:09:43.653-0300] {processor.py:186} INFO - Started process (PID=159507) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:09:43.660-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:09:43.662-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:09:43.661-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:09:43.670-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:09:43.692-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:09:43.691-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:09:43.705-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:09:43.705-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:09:43.739-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.092 seconds
+[2025-04-25T14:10:16.556-0300] {processor.py:186} INFO - Started process (PID=159680) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:10:16.563-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:10:16.564-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:10:16.564-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:10:16.572-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:10:16.591-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:10:16.590-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:10:16.603-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:10:16.602-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:10:16.631-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.082 seconds
+[2025-04-25T14:10:49.972-0300] {processor.py:186} INFO - Started process (PID=159925) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:10:49.979-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:10:49.980-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:10:49.980-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:10:49.988-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:10:50.009-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:10:50.008-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:10:50.024-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:10:50.023-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:10:50.063-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.098 seconds
+[2025-04-25T14:11:24.233-0300] {processor.py:186} INFO - Started process (PID=160111) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:11:24.241-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:11:24.245-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:11:24.242-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:11:24.262-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:11:24.282-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:11:24.282-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:11:24.294-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:11:24.294-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:11:24.329-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.117 seconds
+[2025-04-25T14:12:00.368-0300] {processor.py:186} INFO - Started process (PID=160403) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:12:00.375-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:12:00.377-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:12:00.376-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:12:00.385-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:12:00.406-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:12:00.406-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:12:00.421-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:12:00.421-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:12:00.459-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.098 seconds
+[2025-04-25T14:12:35.362-0300] {processor.py:186} INFO - Started process (PID=160674) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:12:35.369-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:12:35.370-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:12:35.370-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:12:35.378-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:12:35.396-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:12:35.396-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:12:35.408-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:12:35.408-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:12:35.436-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.080 seconds
+[2025-04-25T14:13:06.421-0300] {processor.py:186} INFO - Started process (PID=160869) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:13:06.428-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:13:06.430-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:13:06.429-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:13:06.437-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:13:06.458-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:13:06.458-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:13:06.473-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:13:06.472-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:13:06.505-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.091 seconds
+[2025-04-25T14:14:04.501-0300] {processor.py:186} INFO - Started process (PID=161246) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:14:04.508-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:14:04.510-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:14:04.509-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:14:04.517-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:14:04.537-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:14:04.537-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:14:04.550-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:14:04.550-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:14:04.577-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.082 seconds
+[2025-04-25T14:14:37.562-0300] {processor.py:186} INFO - Started process (PID=161539) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:14:37.569-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:14:37.570-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:14:37.570-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:14:37.577-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:14:37.596-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:14:37.595-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:14:37.608-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:14:37.608-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:14:37.636-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.080 seconds
+[2025-04-25T14:15:10.293-0300] {processor.py:186} INFO - Started process (PID=161721) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:15:10.294-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:15:10.296-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:15:10.295-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:15:10.303-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:15:10.322-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:15:10.322-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:15:10.335-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:15:10.335-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:15:10.360-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.073 seconds
+[2025-04-25T14:15:43.765-0300] {processor.py:186} INFO - Started process (PID=161952) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:15:43.772-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:15:43.774-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:15:43.774-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:15:43.783-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:15:43.804-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:15:43.804-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:15:43.819-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:15:43.819-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:15:43.853-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.100 seconds
+[2025-04-25T14:16:16.576-0300] {processor.py:186} INFO - Started process (PID=162123) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:16:16.583-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:16:16.585-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:16:16.585-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:16:16.592-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:16:16.611-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:16:16.611-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:16:16.623-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:16:16.623-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:16:16.650-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.080 seconds
+[2025-04-25T14:16:48.811-0300] {processor.py:186} INFO - Started process (PID=162355) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:16:48.812-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:16:48.814-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:16:48.813-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:16:48.822-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:16:48.845-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:16:48.845-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:16:48.860-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:16:48.860-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:16:48.891-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.089 seconds
+[2025-04-25T14:17:21.365-0300] {processor.py:186} INFO - Started process (PID=162536) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:17:21.366-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py for tasks to queue
+[2025-04-25T14:17:21.368-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:17:21.367-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:17:21.375-0300] {processor.py:925} INFO - DAG(s) 'etl_datawarehouse' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py
+[2025-04-25T14:17:21.395-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:17:21.394-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-25T14:17:21.407-0300] {logging_mixin.py:190} INFO - [2025-04-25T14:17:21.406-0300] {dag.py:4180} INFO - Setting next_dagrun for etl_datawarehouse to None, run_after=None
+[2025-04-25T14:17:21.436-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_etl.py took 0.078 seconds

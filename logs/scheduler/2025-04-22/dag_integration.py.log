@@ -1,0 +1,259 @@
+[2025-04-21T21:23:11.868-0300] {processor.py:186} INFO - Started process (PID=70146) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T21:23:11.869-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T21:23:11.871-0300] {logging_mixin.py:190} INFO - [2025-04-21T21:23:11.871-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T21:23:11.884-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T21:23:11.908-0300] {logging_mixin.py:190} INFO - [2025-04-21T21:23:11.908-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T21:23:11.935-0300] {logging_mixin.py:190} INFO - [2025-04-21T21:23:11.935-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T21:23:11.962-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.099 seconds
+[2025-04-21T21:24:17.448-0300] {processor.py:186} INFO - Started process (PID=70991) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T21:24:17.457-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T21:24:17.463-0300] {logging_mixin.py:190} INFO - [2025-04-21T21:24:17.462-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T21:24:17.483-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T21:24:17.507-0300] {logging_mixin.py:190} INFO - [2025-04-21T21:24:17.507-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T21:24:17.544-0300] {logging_mixin.py:190} INFO - [2025-04-21T21:24:17.543-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T21:24:17.581-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.146 seconds
+[2025-04-21T21:26:46.240-0300] {processor.py:186} INFO - Started process (PID=74022) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T21:26:46.248-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T21:26:46.251-0300] {logging_mixin.py:190} INFO - [2025-04-21T21:26:46.250-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T21:26:46.268-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T21:26:46.292-0300] {logging_mixin.py:190} INFO - [2025-04-21T21:26:46.291-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T21:26:46.318-0300] {logging_mixin.py:190} INFO - [2025-04-21T21:26:46.318-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T21:26:46.349-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.119 seconds
+[2025-04-21T21:34:24.932-0300] {processor.py:186} INFO - Started process (PID=82396) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T21:34:24.933-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T21:34:24.936-0300] {logging_mixin.py:190} INFO - [2025-04-21T21:34:24.935-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T21:34:24.953-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T21:34:24.977-0300] {logging_mixin.py:190} INFO - [2025-04-21T21:34:24.977-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T21:34:25.004-0300] {logging_mixin.py:190} INFO - [2025-04-21T21:34:25.004-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T21:34:25.035-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.111 seconds
+[2025-04-21T22:09:28.040-0300] {processor.py:186} INFO - Started process (PID=126746) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:09:28.046-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:09:28.048-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:09:28.047-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:09:28.057-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:09:28.091-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:09:28.091-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:09:28.113-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:09:28.113-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:09:28.143-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.109 seconds
+[2025-04-21T22:10:33.739-0300] {processor.py:186} INFO - Started process (PID=127623) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:10:33.746-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:10:33.747-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:10:33.747-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:10:33.755-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:10:33.773-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:10:33.773-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:10:33.794-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:10:33.794-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:10:33.822-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.090 seconds
+[2025-04-21T22:11:07.477-0300] {processor.py:186} INFO - Started process (PID=128189) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:11:07.484-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:11:07.485-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:11:07.485-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:11:07.494-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:11:07.512-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:11:07.511-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:11:07.535-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:11:07.535-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:11:07.567-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.097 seconds
+[2025-04-21T22:11:38.570-0300] {processor.py:186} INFO - Started process (PID=128551) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:11:38.577-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:11:38.578-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:11:38.578-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:11:38.586-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:11:38.608-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:11:38.608-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:11:38.643-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:11:38.642-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:11:38.672-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.111 seconds
+[2025-04-21T22:12:09.768-0300] {processor.py:186} INFO - Started process (PID=128885) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:12:09.775-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:12:09.776-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:12:09.776-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:12:09.783-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:12:09.801-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:12:09.801-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:12:09.821-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:12:09.821-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:12:09.851-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.089 seconds
+[2025-04-21T22:12:41.005-0300] {processor.py:186} INFO - Started process (PID=129221) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:12:41.012-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:12:41.013-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:12:41.013-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:12:41.022-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:12:41.039-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:12:41.039-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:12:41.060-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:12:41.060-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:12:41.090-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.091 seconds
+[2025-04-21T22:13:12.002-0300] {processor.py:186} INFO - Started process (PID=129508) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:13:12.009-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:13:12.011-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:13:12.010-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:13:12.018-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:13:12.036-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:13:12.036-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:13:12.062-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:13:12.062-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:13:12.094-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.098 seconds
+[2025-04-21T22:13:45.115-0300] {processor.py:186} INFO - Started process (PID=129986) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:13:45.122-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:13:45.124-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:13:45.124-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:13:45.132-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:13:45.152-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:13:45.151-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:13:45.182-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:13:45.181-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:13:45.221-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.114 seconds
+[2025-04-21T22:14:15.957-0300] {processor.py:186} INFO - Started process (PID=130273) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:14:15.964-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:14:15.966-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:14:15.966-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:14:15.977-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:14:16.002-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:14:16.001-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:14:16.031-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:14:16.031-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:14:16.066-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.118 seconds
+[2025-04-21T22:14:46.765-0300] {processor.py:186} INFO - Started process (PID=130670) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:14:46.772-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:14:46.774-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:14:46.773-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:14:46.782-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:14:46.798-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:14:46.798-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:14:46.818-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:14:46.818-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:14:46.849-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.090 seconds
+[2025-04-21T22:15:18.424-0300] {processor.py:186} INFO - Started process (PID=130983) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:15:18.432-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:15:18.437-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:15:18.435-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:15:18.461-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:15:18.495-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:15:18.494-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:15:18.516-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:15:18.515-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:15:18.545-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.141 seconds
+[2025-04-21T22:15:48.801-0300] {processor.py:186} INFO - Started process (PID=131325) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:15:48.809-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:15:48.810-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:15:48.809-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:15:48.818-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:15:48.835-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:15:48.834-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:15:48.856-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:15:48.856-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:15:48.897-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.102 seconds
+[2025-04-21T22:16:20.045-0300] {processor.py:186} INFO - Started process (PID=131614) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:16:20.052-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:16:20.053-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:16:20.053-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:16:20.060-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:16:20.076-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:16:20.076-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:16:20.095-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:16:20.094-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:16:20.121-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.081 seconds
+[2025-04-21T22:16:51.553-0300] {processor.py:186} INFO - Started process (PID=131971) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:16:51.561-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:16:51.563-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:16:51.562-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:16:51.574-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:16:51.594-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:16:51.593-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:16:51.622-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:16:51.622-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:16:51.663-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.132 seconds
+[2025-04-21T22:17:24.033-0300] {processor.py:186} INFO - Started process (PID=132249) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:17:24.040-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:17:24.042-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:17:24.041-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:17:24.050-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:17:24.067-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:17:24.067-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:17:24.086-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:17:24.085-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:17:24.107-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.080 seconds
+[2025-04-21T22:17:54.857-0300] {processor.py:186} INFO - Started process (PID=132623) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:17:54.864-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:17:54.866-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:17:54.865-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:17:54.873-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:17:54.889-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:17:54.888-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:17:54.908-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:17:54.908-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:17:54.941-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.089 seconds
+[2025-04-21T22:18:25.718-0300] {processor.py:186} INFO - Started process (PID=132905) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:18:25.725-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:18:25.727-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:18:25.727-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:18:25.735-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:18:25.753-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:18:25.753-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:18:25.774-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:18:25.774-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:18:25.832-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.120 seconds
+[2025-04-21T22:18:57.135-0300] {processor.py:186} INFO - Started process (PID=133248) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:18:57.136-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:18:57.138-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:18:57.137-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:18:57.151-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:18:57.170-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:18:57.170-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:18:57.190-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:18:57.190-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:18:57.220-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.097 seconds
+[2025-04-21T22:19:28.885-0300] {processor.py:186} INFO - Started process (PID=133589) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:19:28.893-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:19:28.895-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:19:28.894-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:19:28.907-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:19:28.929-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:19:28.929-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:19:28.949-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:19:28.949-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:19:28.981-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.107 seconds
+[2025-04-21T22:20:01.147-0300] {processor.py:186} INFO - Started process (PID=133978) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:20:01.149-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:20:01.152-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:20:01.151-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:20:01.168-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:20:01.193-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:20:01.193-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:20:01.232-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:20:01.231-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:20:01.261-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.128 seconds
+[2025-04-21T22:20:33.164-0300] {processor.py:186} INFO - Started process (PID=134350) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:20:33.165-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-21T22:20:33.167-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:20:33.166-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:20:33.177-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-21T22:20:33.199-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:20:33.199-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T22:20:33.230-0300] {logging_mixin.py:190} INFO - [2025-04-21T22:20:33.229-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-21T22:20:33.263-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.108 seconds
+[2025-04-22T10:23:49.756-0300] {processor.py:186} INFO - Started process (PID=10325) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:23:49.757-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-22T10:23:49.760-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:23:49.760-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:23:49.796-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:23:49.919-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:23:49.919-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T10:23:49.959-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:23:49.958-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-22T10:23:50.001-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.261 seconds
+[2025-04-22T10:25:05.416-0300] {processor.py:186} INFO - Started process (PID=11657) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:25:05.425-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-22T10:25:05.432-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:25:05.431-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:25:05.464-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:25:05.487-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:25:05.487-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T10:25:05.521-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:25:05.521-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-22T10:25:05.550-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.154 seconds
+[2025-04-22T10:25:41.895-0300] {processor.py:186} INFO - Started process (PID=12000) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:25:41.903-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-22T10:25:41.905-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:25:41.904-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:25:41.922-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:25:41.947-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:25:41.947-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T10:25:41.970-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:25:41.970-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-22T10:25:41.999-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.110 seconds
+[2025-04-22T10:26:45.978-0300] {processor.py:186} INFO - Started process (PID=13035) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:26:45.985-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-22T10:26:45.990-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:26:45.990-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:26:46.010-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:26:46.027-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:26:46.027-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T10:26:46.051-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:26:46.051-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-22T10:26:46.080-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.116 seconds
+[2025-04-22T10:28:00.047-0300] {processor.py:186} INFO - Started process (PID=14270) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:28:00.050-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-22T10:28:00.054-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:28:00.053-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:28:00.071-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:28:00.087-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:28:00.087-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T10:28:00.109-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:28:00.109-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-22T10:28:00.146-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.110 seconds
+[2025-04-22T10:29:37.507-0300] {processor.py:186} INFO - Started process (PID=15747) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:29:37.514-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-22T10:29:37.516-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:29:37.516-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:29:37.528-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:29:37.544-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:29:37.544-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T10:29:37.567-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:29:37.567-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-22T10:29:37.598-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.098 seconds
+[2025-04-22T10:30:51.788-0300] {processor.py:186} INFO - Started process (PID=16354) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:30:51.790-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-22T10:30:51.792-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:30:51.792-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:30:51.812-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T10:30:51.841-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:30:51.841-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T10:30:51.864-0300] {logging_mixin.py:190} INFO - [2025-04-22T10:30:51.864-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-22T10:30:51.894-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.113 seconds
+[2025-04-22T11:07:43.604-0300] {processor.py:186} INFO - Started process (PID=49390) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T11:07:43.606-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-22T11:07:43.607-0300] {logging_mixin.py:190} INFO - [2025-04-22T11:07:43.607-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T11:07:43.643-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T11:07:43.711-0300] {logging_mixin.py:190} INFO - [2025-04-22T11:07:43.711-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T11:07:43.757-0300] {logging_mixin.py:190} INFO - [2025-04-22T11:07:43.756-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-22T11:07:43.786-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.188 seconds
+[2025-04-22T11:08:45.450-0300] {processor.py:186} INFO - Started process (PID=49837) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T11:08:45.457-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-22T11:08:45.458-0300] {logging_mixin.py:190} INFO - [2025-04-22T11:08:45.458-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T11:08:45.467-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T11:08:45.483-0300] {logging_mixin.py:190} INFO - [2025-04-22T11:08:45.483-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T11:08:45.503-0300] {logging_mixin.py:190} INFO - [2025-04-22T11:08:45.503-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-22T11:08:45.526-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.085 seconds
+[2025-04-22T11:09:43.486-0300] {processor.py:186} INFO - Started process (PID=50219) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T11:09:43.489-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-22T11:09:43.491-0300] {logging_mixin.py:190} INFO - [2025-04-22T11:09:43.490-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T11:09:43.504-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T11:09:43.523-0300] {logging_mixin.py:190} INFO - [2025-04-22T11:09:43.523-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T11:09:43.545-0300] {logging_mixin.py:190} INFO - [2025-04-22T11:09:43.544-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-22T11:09:43.578-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.113 seconds
+[2025-04-22T11:10:45.491-0300] {processor.py:186} INFO - Started process (PID=50760) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T11:10:45.498-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-22T11:10:45.499-0300] {logging_mixin.py:190} INFO - [2025-04-22T11:10:45.499-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T11:10:45.507-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T11:10:45.523-0300] {logging_mixin.py:190} INFO - [2025-04-22T11:10:45.523-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T11:10:45.543-0300] {logging_mixin.py:190} INFO - [2025-04-22T11:10:45.543-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-22T11:10:45.576-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.091 seconds
+[2025-04-22T11:11:17.362-0300] {processor.py:186} INFO - Started process (PID=50994) to work on /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T11:11:17.369-0300] {processor.py:914} INFO - Processing file /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py for tasks to queue
+[2025-04-22T11:11:17.370-0300] {logging_mixin.py:190} INFO - [2025-04-22T11:11:17.370-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T11:11:17.379-0300] {processor.py:925} INFO - DAG(s) 'integracao_api' retrieved from /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py
+[2025-04-22T11:11:17.397-0300] {logging_mixin.py:190} INFO - [2025-04-22T11:11:17.397-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T11:11:17.422-0300] {logging_mixin.py:190} INFO - [2025-04-22T11:11:17.422-0300] {dag.py:4180} INFO - Setting next_dagrun for integracao_api to 2025-04-22 00:00:00+00:00, run_after=2025-04-23 00:00:00+00:00
+[2025-04-22T11:11:17.458-0300] {processor.py:208} INFO - Processing /home/jonathan-brito/python-projects/airflow/dags/dag_integration.py took 0.102 seconds
